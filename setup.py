@@ -185,6 +185,7 @@ setup(name=PACKAGE_NAME,
               'perforce = reviewboard.scmtools.perforce:PerforceTool',
               'plastic = reviewboard.scmtools.plastic:PlasticTool',
               'svn = reviewboard.scmtools.svn:SVNTool',
+              'tarball = reviewboard.scmtools.tarball:TarballTool',
           ],
           'reviewboard.auth_backends': [
               'ad = reviewboard.accounts.backends:ActiveDirectoryBackend',
